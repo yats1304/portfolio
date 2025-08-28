@@ -24,8 +24,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${font.className} antialiased`} style={{ backgroundColor: '#0d0d1f' }}>
 
-
-
           <ResponsiveNav/>
         {children}
           <Footer/>
