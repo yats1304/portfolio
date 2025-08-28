@@ -5,7 +5,7 @@ import { FaSquareXTwitter } from 'react-icons/fa6'
 
     const Contact = () => {
     return (
-        <div className='pt-16 pb-16'>
+        <div id="contact" className='pt-16 pb-16'>
             <div className='w-[90%] md:w-[80%] lg:w-[70%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center'>
                 {/* Text Content */}
                 <div>
@@ -65,7 +65,8 @@ import { FaSquareXTwitter } from 'react-icons/fa6'
                     </div>  
                 </div>
                 {/* form */}
-                <div className='md:p-10 p-5 bg-[#131332] rounded-lg'>
+                <div data-aos="zoom-in" data-aos-anchor-placement="top-center"
+                    className='md:p-10 p-5 bg-[#131332] rounded-lg'>
                     <input 
                     type='text' 
                     placeholder='Name' 
