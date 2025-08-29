@@ -49,7 +49,7 @@ const Nav = ({openNav}:Props) => {
             {/* Button */}
             <div className='flex items-center space-x-4'>
                 {/* Resume Button */}   
-                <a href="/resume.pdf" download className='inline-block'>
+                <a href="/Resume(Yatish_Chaubal).pdf" download className='inline-block'>
                     <button className='px-8 py-3.5 text-sm cursor-pointer rounded-lg bg-blue-800 hover:bg-blue-900
                     transition-all duration-300 text-white flex items-center space-x-2'>
                     <BiDownload className='w-5 h-5'/>
