@@ -33,10 +33,10 @@ Welcome to my personal portfolio. Discover my projects, experience, skills, and 
 ## 📸 Screenshots
 
 <!-- Add image links here -->
-<!-- ![Home Page](<img width="1897" height="944" alt="image" src="https://github.com/user-attachments/assets/ad99b60c-1a4c-45ad-bf9e-4986e4c67167" />
-) -->
-<!-- ![Projects Section](<img width="1894" height="935" alt="image" src="https://github.com/user-attachments/assets/9143b072-9740-4027-9df2-d4e7b7f7dd42" />
-) -->
+<img width="1897" height="944" alt="image" src="https://github.com/user-attachments/assets/ad99b60c-1a4c-45ad-bf9e-4986e4c67167" />
+
+<img width="1894" height="935" alt="image" src="https://github.com/user-attachments/assets/9143b072-9740-4027-9df2-d4e7b7f7dd42" />
+
 
 ---
 
