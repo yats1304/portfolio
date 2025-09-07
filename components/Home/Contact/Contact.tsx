@@ -15,10 +15,10 @@ const Contact = () => {
      if (!form.current) return;
 
     emailjs.sendForm(
-        'service_cc7mwi7',    // Your Service ID
-        'template_j4540t4',   // Your Template ID
+        'service_cc7mwi7',    // Service ID
+        'template_j4540t4',   // Template ID
         form.current!,
-        '6C7aq-b38dUZmjhmK'  // Your Public Key
+        '6C7aq-b38dUZmjhmK'  // Public Key
       )
       .then(
         (result) => {
