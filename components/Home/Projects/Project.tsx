@@ -1,100 +1,108 @@
-import Image from 'next/image';
-import React from 'react';
+import Image from "next/image";
+import React from "react";
 
 const Project = () => {
   return (
-    <div id="works" className='pt-16 pb-16'>
-      <h1 className='text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white'>
-        A small selection of recent <br /> <span className='text-cyan-300'>projects</span>
+    <div id="works" className="pt-16 pb-16">
+      <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
+        A small selection of recent <br />{" "}
+        <span className="text-cyan-300">projects</span>
       </h1>
-      <div className='w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16'>
-
-        {/* 1st Project */}
-        <a data-aos="fade-up" data-aos-anchor-placement="top-center"
-          href="https://travel-app-sandy-one.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
+      <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+        {/* Frovo portfolio */}
+        <a
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          href="https://www.frovo.in/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block cursor-pointer"
         >
           <Image
-            src='/images/p1.jpg'
-            alt='Travel App Frontend'
+            src="/images/p4.jpg"
+            alt="Frovo portfolio"
             width={800}
             height={650}
-            className='rounded-xl'
+            className="rounded-xl"
           />
-          <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
-            Travel App - Frontend
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Frovo Portfolio Website
           </h1>
-          <h1 className='pt-2 font-medium text-white/80'>
-            React, Tailwind CSS, Vite
+          <h1 className="pt-2 font-medium text-white/80">
+            Next.js, React, Tailwind CSS
           </h1>
         </a>
 
-        {/* 2nd Project */}
-        <a data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100"   
-          href="https://tasty-treat-cafe.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
+        {/* Kimate */}
+        <a
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          href="https://klimate-weld-tau.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block cursor-pointer"
         >
           <Image
-            src='/images/p2.jpg'
-            alt='Tasty Treat Cafe'
+            src="/images/p1.jpg"
+            alt="Klimate"
             width={800}
             height={650}
-            className='rounded-xl'
+            className="rounded-xl"
           />
-          <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
+            Klimate – Weather App
+          </h1>
+          <h1 className="pt-2 font-medium text-white/80">
+            Next.js, React, OpenWeatherMap API
+          </h1>
+        </a>
+
+        {/* Tasty Treat Cafe */}
+        <a
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="100"
+          href="https://tasty-treat-cafe.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block cursor-pointer"
+        >
+          <Image
+            src="/images/p2.jpg"
+            alt="Tasty Treat Cafe"
+            width={800}
+            height={650}
+            className="rounded-xl"
+          />
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Tasty Treat Cafe
           </h1>
-          <h1 className='pt-2 font-medium text-white/80'>
+          <h1 className="pt-2 font-medium text-white/80">
             React, Material UI, Vite
           </h1>
         </a>
 
-        {/* 3rd Project */}
-        <a data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="200"   
-          href="https://movie-browser-tmdb.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
+        {/* Movie Broswer */}
+        <a
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay="200"
+          href="https://movie-browser-tmdb.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
           className="block cursor-pointer"
         >
           <Image
-            src='/images/p3.jpg'
-            alt='Movie Browser'
+            src="/images/p3.jpg"
+            alt="Movie Browser"
             width={800}
             height={650}
-            className='rounded-xl'
+            className="rounded-xl"
           />
-          <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
+          <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">
             Movie Browser
           </h1>
-          <h1 className='pt-2 font-medium text-white/80'>
-            React, API, Vite
-          </h1>
-        </a>
-
-        {/* 4th Project */}
-        <a data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="300"   
-          href="https://contact-us-page-gold.vercel.app" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="block cursor-pointer"
-        >
-          <Image
-            src='/images/p4.jpg'
-            alt='Contact Us Page'
-            width={800}
-            height={650}
-            className='rounded-xl'
-          />
-          <h1 className='mt-4 text-xl sm:text-2xl font-semibold text-white'>
-            Contact Us Page
-          </h1>
-          <h1 className='pt-2 font-medium text-white/80'>
-            React, CSS, Vite
-          </h1>
+          <h1 className="pt-2 font-medium text-white/80">React, API, Vite</h1>
         </a>
       </div>
     </div>

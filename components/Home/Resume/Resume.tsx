@@ -1,7 +1,7 @@
 import React from "react";
 import ResumeCard from "./ResumeCard";
 import { FaReact } from "react-icons/fa";
-import { SiPython } from "react-icons/si";
+import { SiPython, SiReact } from "react-icons/si";
 import { MdSchool } from "react-icons/md";
 import { GiDiploma } from "react-icons/gi";
 
@@ -20,17 +20,15 @@ const Resume = () => {
             data-aos-anchor-placement="top-center"
           >
             <ResumeCard
-              Icon={FaReact}
-              role="Frontend Developer"
-              description="Developed a responsive React web app for Tasty Treat Cafe that displays their 
-                    menu, contact details, and location. Enables customers to browse offerings easily on any 
-                    device and access cafe info via QR code."
+              Icon={SiReact}
+              role="Frontend Developer — Frovo"
+              date="Oct 2025 – Present"
+              description="Developing modern, responsive, and scalable web interfaces using React, Next.js, and Tailwind CSS. Contributed to key Frovo modules including the official Frovo Portfolio Website, Super Admin Panel, Warehouse Management System, and Vendor Management System. Responsible for UI components, API integration, and improving overall user experience."
             />
             <ResumeCard
-              Icon={SiPython}
-              role="Programming in Python"
-              description="Completed an internship focused on Python programming, gaining hands-on 
-                    experience in core Python fundamentals, data structures, and project structuring."
+              Icon={FaReact}
+              role="Frontend Developer (Freelance)"
+              description="Developed a fully responsive React web app for Tasty Treat Cafe, showcasing their menu, contact details, and location. Implemented clean UI/UX, optimized performance, and enabled customers to easily access cafe information through QR-based navigation."
             />
           </div>
         </div>
