@@ -25,8 +25,6 @@ Welcome to my personal portfolio. Discover my projects, experience, skills, and 
 - HTML, CSS, Tailwind CSS
 - JavaScript (ES6+)
 - React.js
-- Python
-- MySQL
 
 ---
 
@@ -40,18 +38,17 @@ Welcome to my personal portfolio. Discover my projects, experience, skills, and 
 
 ---
 
-## 📦 Getting Started
+## Installation
 
 1. Clone the repository:
-git clone https://github.com/yats1304/portfolio
+   ```bash
+   git clone https://github.com/yats1304/portfolio
+   cd portfolio
 
-2. Navigate into the project directory:
-cd portfolio
+2. Install dependencies:
+    ```bash
+    npm install
 
-
-3. Install dependencies:
-npm install
-
-
-4. Start the development server:
-npm run dev
+3. Run the project:
+    ```bash
+    npm run dev
